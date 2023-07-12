@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk update && apk add tor
+RUN apk update && apk add tor nginx
 COPY torrc /etc/tor/torrc
 RUN chown -R tor /etc/tor
 USER tor
