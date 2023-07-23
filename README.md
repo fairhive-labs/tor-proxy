@@ -1,6 +1,6 @@
 # tor-proxy
 ## Build and detached Run
-> docker build -t tor . && docker run -d --rm -p 9050:9050 tor
+> docker build -t tor . && docker run --rm -p 9050:9050 tor
 ## Test connection w/o proxy
 > curl https://check.torproject.org/api/ip
 ```json

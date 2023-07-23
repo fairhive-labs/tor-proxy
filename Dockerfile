@@ -1,7 +1,9 @@
-FROM alpine
-RUN apk update && apk add tor nginx
+FROM nginx:alpine
+RUN apk update && apk add tor
 COPY torrc /etc/tor/torrc
-RUN chown -R tor /etc/tor
-USER tor
+COPY nginx.conf /etc/nginx/nginx.conf
+# COPY --from=node /app/dist/ /usr/share/nginx/html/
+COPY index.html /usr/share/nginx/html/index.html
+COPY start-tor.sh /docker-entrypoint.d/40-start-tor.sh
+RUN chmod +x /docker-entrypoint.d/40-start-tor.sh
 EXPOSE 9050
-CMD ["/usr/bin/tor"]
