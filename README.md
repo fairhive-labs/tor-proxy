@@ -1,6 +1,6 @@
 # tor-proxy
 ## Build and detached Run
-> docker build -t tor . && docker run --rm -p 9050:9050 tor
+> docker build -t tor . && docker run --rm -p 5090:9050 --name tor-proxy tor
 ## Test connection w/o proxy
 > curl https://check.torproject.org/api/ip
 ```json
@@ -11,3 +11,10 @@
 ```json
 {"IsTor":true,"IP":"5.45.98.162"}
 ```
+
+## display onion URL of hidden service 
+> docker exec -it tor-proxy cat /var/lib/tor/nginx/hostname
+```
+3bskeihi3ohynad4ylc4qu6jsbjrmsy2tqzlyfneeuxx4qazqe5hm7id.onion
+```
+copy/paste this URL in your web browser (connected to TOR of course...) and you'll access you dark website
