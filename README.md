@@ -21,7 +21,9 @@ You will get something like:
 ```
 3bskeihi3ohynad4ylc4qu6jsbjrmsy2tqzlyfneeuxx4qazqe5hm7id.onion
 ```
-Copy/Paste the URL in your web browser - _connected to TOR, of course..._ - and you'll access to you **dark website** :jack_o_lantern:
+Copy/Paste the URL in your web browser - _connected to TOR, of course !!!_ - ...
+
+... and you'll access to you **dark website** :jack_o_lantern:
 
 ## ✋ Tips
 - **USE A VPN CONNECTION** before surfing on TOR circuits !
