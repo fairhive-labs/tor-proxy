@@ -1,5 +1,5 @@
 # tor-proxy
-Access to **darkweb** running a dockerize tor proxy, providing a hidden service (.onion site) based on index.html file content
+
 ## Build and detached Run
 > docker build -t tor . && docker run --rm -p 5090:9050 --name tor-proxy tor
 ## Test connection w/o proxy
@@ -13,9 +13,16 @@ Access to **darkweb** running a dockerize tor proxy, providing a hidden service 
 {"IsTor":true,"IP":"5.45.98.162"}
 ```
 
-## display onion URL of hidden service 
+## Display onion URL of hidden service 
 > docker exec -it tor-proxy cat /var/lib/tor/nginx/hostname
+
+You will get something like:
+
 ```
 3bskeihi3ohynad4ylc4qu6jsbjrmsy2tqzlyfneeuxx4qazqe5hm7id.onion
 ```
-:arrow_up: copy/paste the URL in your web browser - _connected to TOR of course..._ - and you'll access to you **dark** website :jack_o_lantern:
+Copy/Paste the URL in your web browser - _connected to TOR, of course..._ - and you'll access to you **dark website** :jack_o_lantern:
+
+## ✋ Tips
+- **USE A VPN CONNECTION** before surfing on TOR circuits !
+- The hidden service provides a very simple webpage but you can put whatever you want in `/usr/share/nginx/html/` folder...
