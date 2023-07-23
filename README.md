@@ -1,4 +1,5 @@
 # tor-proxy
+Access to **darkweb** running a dockerize tor proxy, providing a hidden service (.onion site) based on index.html file content
 ## Build and detached Run
 > docker build -t tor . && docker run --rm -p 5090:9050 --name tor-proxy tor
 ## Test connection w/o proxy
@@ -17,4 +18,4 @@
 ```
 3bskeihi3ohynad4ylc4qu6jsbjrmsy2tqzlyfneeuxx4qazqe5hm7id.onion
 ```
-copy/paste this URL in your web browser (connected to TOR of course...) and you'll access you dark website
+:arrow_up: copy/paste the URL in your web browser - _connected to TOR of course..._ - and you'll access to you **dark** website :jack_o_lantern:
