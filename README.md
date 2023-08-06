@@ -8,7 +8,7 @@
 {"IsTor":false,"IP":"5.196.4.233"}
 ```
 ## Test using TOR proxy
-> curl -x socks5://localhost:9050 https://check.torproject.org/api/ip
+> curl -x socks5://localhost:5090 https://check.torproject.org/api/ip
 ```json
 {"IsTor":true,"IP":"5.45.98.162"}
 ```
