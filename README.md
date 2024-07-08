@@ -138,6 +138,8 @@ Copy/Paste the URL in your web browser - _connected to TOR, of course !!!_ - ...
 
 ... and you'll access to you **dark website** :jack_o_lantern:
 
+![hidden service](image.png)
+
 ## ✋ Tips
 
 - **USE A VPN CONNECTION** before surfing on TOR circuits !
