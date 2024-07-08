@@ -143,3 +143,14 @@ Copy/Paste the URL in your web browser - _connected to TOR, of course !!!_ - ...
 - **USE A VPN CONNECTION** before surfing on TOR circuits !
 - The hidden service provides a very simple webpage but you can put whatever you want in `/usr/share/nginx/html/` folder, using `docker volumes` for eg...
 - Tip XMR to **`42UwTUWzvPUCYKHsrzqGZXCKty3uCL9yGfeQSyy2oY2dRTLmsPFkgpsZgXvCvuV2BHbVDvsQNMyqD1udiKhRomhV4sk2gPE`**
+
+##  Important Notice
+We're proud to introduce our TOR proxy and onion site generator. 
+
+This tool is designed to enhance privacy and security for users who wish to access the TOR network and create their own onion sites.
+
+**Legal Use Only**: This tool is provided for legitimate, lawful purposes only. Users are responsible for ensuring that their use of this tool complies with all local, national, and international laws. Any use of this tool for illegal activities is strictly prohibited, and users doing so will be solely responsible for any legal consequences.
+
+We believe in the power of privacy and the potential of the TOR network to protect user identities and promote free speech. However, it's essential to use these tools responsibly and ethically.
+
+Please ensure you're familiar with the legal implications and responsibilities before using this tool.
