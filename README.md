@@ -124,7 +124,7 @@ To use the Docker-based Tor proxy, follow these steps to configure a SOCKS5 prox
 4. **Verify the Proxy Configuration**:
    - Open your web browser or terminal and navigate to a website to ensure that the connection is routed through the Tor network.
 
-## Display onion URL of hidden service 
+## Display onion URL of hidden service
 
 ```sh
 docker exec -it tor-proxy cat /var/lib/tor/nginx/hostname
@@ -146,7 +146,7 @@ Copy/Paste the URL in your web browser - _connected to TOR, of course !!!_ - ...
 
 ## Important Notice
 
-We're proud to introduce our TOR proxy and onion site generator. 
+We're proud to introduce our TOR proxy and onion site generator.
 
 This tool is designed to enhance privacy and security for users who wish to access the TOR network and create their own onion sites.
 
