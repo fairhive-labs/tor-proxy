@@ -144,7 +144,8 @@ Copy/Paste the URL in your web browser - _connected to TOR, of course !!!_ - ...
 - The hidden service provides a very simple webpage but you can put whatever you want in `/usr/share/nginx/html/` folder, using `docker volumes` for eg...
 - Tip XMR to **`42UwTUWzvPUCYKHsrzqGZXCKty3uCL9yGfeQSyy2oY2dRTLmsPFkgpsZgXvCvuV2BHbVDvsQNMyqD1udiKhRomhV4sk2gPE`**
 
-##  Important Notice
+## Important Notice
+
 We're proud to introduce our TOR proxy and onion site generator. 
 
 This tool is designed to enhance privacy and security for users who wish to access the TOR network and create their own onion sites.
